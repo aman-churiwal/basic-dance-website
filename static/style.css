@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: rgb(7, 4, 4);
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(0.3);
+}
+
+#navbar{
+    background-color: #f5eb21;
+    padding: 19px 5px;
+    font-family: 'Roboto Mono';
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 7px 18px;
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 1000px;
+    padding-bottom: 300px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 2rem;
+}
+
+#missionSection{
+    height: 300px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 209px;
+    margin: 23px 25px;
+    background-color: #fff6f6;
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 132px;
+    padding: 0 14px;
+    margin: 5px -4px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 15px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: #ecec56;
+}
+
+#sponsorSection h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.spImage{
+    height: 133px;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
