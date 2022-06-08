@@ -49,7 +49,7 @@ app.post('/contact', (req, res) => {
         res.status(400).send("Item was not saved to the database")
     })
 
-    // res.status(200).render('contact.pug');
+    
 })
 
 app.listen(port, () => {
